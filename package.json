@@ -1,0 +1,22 @@
+{
+  "name": "structureBackend",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcrypt": "latest",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "~1.4.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.1.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.0.3",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "serve-favicon": "~2.4.5"
+  }
+}
