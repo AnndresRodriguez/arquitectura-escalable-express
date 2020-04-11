@@ -17,6 +17,8 @@ const UserSchema = new mongoose.Schema({
     default: 'Client'
   }
 });
+
+
 UserSchema.pre('save', function(next) {
   let user = this;
    if (this.isModified('password') || this.isNew) {
